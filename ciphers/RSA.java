@@ -13,7 +13,7 @@ public final class RSA {
     String text1 = JOptionPane.showInputDialog("Enter a message to encrypt :");
 
     String ciphertext = rsa.encrypt(text1);
-    JOptionPane.showMessageDialog(null, "Your encrypted message : " + ciphertext);
+    JOptionPane.showMessageDialog(null, "Your encrypted message is : " + ciphertext);
 
     JOptionPane.showMessageDialog(null, "Your message after decrypt : " + rsa.decrypt(ciphertext));
   }
